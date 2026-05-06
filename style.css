@@ -1,0 +1,103 @@
+/* Tổng thể trang */
+body {
+  font-family: Arial, sans-serif; /* font chữ */
+  background: linear-gradient(to right, #e3f2fd, #fce4ec); /* nền chuyển màu */
+  margin: 0; /* xóa khoảng trắng ngoài */
+  padding: 20px; /* khoảng cách bên trong */
+}
+
+/* Khung chính */
+.tieude {
+  max-width: 700px; /* chiều rộng tối đa */
+  margin: auto; /* căn giữa */
+  background: white; /* nền trắng */
+  padding: 25px 30px; /* khoảng cách trong */
+  border-radius: 15px; /* bo góc */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* đổ bóng */
+}
+
+/* Tiêu đề */
+.tieude h1 {
+  text-align: center; /* căn giữa chữ */
+  color: #e53935; /* màu đỏ đẹp */
+  margin-bottom: 10px; /* cách dưới */
+}
+
+/* Đoạn văn */
+.tieude p {
+  line-height: 1.7; /* giãn dòng */
+}
+
+/* QR */
+.qr {
+  text-align: center; /* căn giữa */
+  margin-top: 25px; /* cách trên */
+}
+
+.qr img {
+  width: 220px; /* kích thước ảnh */
+  border-radius: 12px; /* bo góc */
+  transition: 0.3s; /* hiệu ứng mượt */
+}
+
+.qr img:hover {
+  transform: scale(1.07); /* phóng to khi hover */
+}
+
+/* Ảnh vợ */
+.vo {
+  text-align: center; /* căn giữa */
+  margin-top: 25px; /* cách trên */
+}
+
+.vo p {
+  color: #ff3d00; /* màu chữ */
+  font-style: italic; /* chữ nghiêng */
+  font-weight: bold; /* chữ đậm */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3); /* bóng chữ */
+}
+
+.vo img {
+  width: 260px; /* kích thước ảnh */
+  border-radius: 15px; /* bo góc */
+  transition: 0.3s; /* hiệu ứng */
+}
+
+.vo img:hover {
+  transform: scale(1.05); /* zoom nhẹ */
+}
+
+/* Liên hệ */
+.fb {
+  text-align: center; /* căn giữa */
+  margin-top: 30px; /* cách trên */
+}
+
+/* Link thành nút */
+.fb a {
+  /* chọn thẻ a bên trong .fb */
+  display: inline-flex; /* cho nằm ngang + chỉnh được */
+  align-items: center; /* căn giữa icon + chữ */
+  gap: 6px; /* khoảng cách giữa icon và chữ */
+  text-decoration: none; /* bỏ gạch chân */
+  color: white; /* màu chữ */
+  background: #1877f2; /* nền xanh */
+  padding: 10px 15px; /* khoảng cách trong */
+  border-radius: 10px; /* bo góc */
+  margin: 5px; /* khoảng cách ngoài */
+  font-weight: bold; /* chữ đậm */
+  transition: 0.3s; /* hiệu ứng mượt */
+}
+
+.fb a:hover {
+  /* khi rê chuột vào link */
+  background: #0d5ddb; /* đổi màu nền */
+  transform: translateY(-2px); /* nổi lên */
+}
+
+/* Icon FB */
+.fb img {
+  /* chọn ảnh trong .fb */
+  width: 20px; /* kích thước */
+  border-radius: 50%; /* bo tròn */
+}
